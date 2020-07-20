@@ -10,21 +10,11 @@ html {
 
 body {
   margin: 0 auto;
-  min-width: 24em;
   background-color: #eee;
 }
 
 body > header {
   background-color: #222;
-}
-
-body header h1 {
-  margin: 0 auto;
-  padding-top: 0.5em;
-  background-image: url(https://topdocumentaryfilms.com/wp-content/themes/topdocs/images/site-logo-v4.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  text-indent: -835em;
 }
 
 body > header > nav > ul {
@@ -68,8 +58,6 @@ body > header > nav > ul > li > a:hover {
 }
 
 body > form {
-  display: flex;
-  justify-content: space-between;
   border: 1px solid rgba(0,0,0,.3);
   color: #f9f9f9;
   background-color: #fff;
@@ -92,17 +80,16 @@ body > form > button {
 
 body > section:first-of-type {
   display: flex;
-  justify-content: space-between;
   padding: 0.625em 0.9375em;
 }
 
-/* body > section:first-of-type header {
+body > section:first-of-type header {
   flex: 3;
 }
 
 body > section:first-of-type form {
   flex: 1;
-} */
+}
 
 body > section:first-of-type > header > h2 {
   text-transform: uppercase;
@@ -198,11 +185,10 @@ body > main > article > p:first-of-type {
 }
 body > main > article > footer {
   display: flex;
-  justify-content: space-between;
 }
 
 body > main > article > footer > a {
-  /* flex: 3; */
+  flex: 3;
   color: #4472B9;
   text-decoration: none;
   border-bottom: 2px solid transparent;
@@ -214,7 +200,7 @@ body > main > article > footer > a:hover {
 }
 
 body > main > article > footer > p {
-  /* flex: 1; */
+  flex: 1;
   margin: 0;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 700;
@@ -413,45 +399,29 @@ body > footer > section > ul > li > a, body > footer > section h2 {
   color: #fff;
 }
 
-/* BREAKPOINT 1 */
+@media (min-width: 20em) {
+
+  body {
+    max-width: 36em;
+    background-color: green;
+  }
+
+  body header h1 {
+    margin: 0 auto;
+    padding-top: 0.5em;
+    background-image: url(https://topdocumentaryfilms.com/wp-content/themes/topdocs/images/site-logo-v4.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-indent: -835em;
+  }
+
+}
 
 @media (min-width: 37em) {
 
   body {
     max-width: 46em;
-  }
-
-  body > header {
-    padding: 0 1.25em 0.8125em;
-    background-color: #222;
-  }
-
-  body header h1 {
-    margin: 0.25em auto 0;
-    padding-top: 0;
-    background-image: url(https://topdocumentaryfilms.com/wp-content/themes/topdocs/images/site-logo-v4.svg);
-    background-repeat: no-repeat;
-    background-position: left;
-    text-indent: -835em;
-  }
-
-  body > header > nav > ul > li {
-    flex: none;
-    border-radius: 0.1875em;
-    margin-right: 0.3125em;
-  }
-
-}
-
-@media (min-width: 58em) {
-
-  body {
-    max-width: 63em;
     background-color: gold;
   }
-
-  /* body > header {
-    max-width: 72em;
-  } */
 
 }
