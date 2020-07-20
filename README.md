@@ -1,18 +1,14 @@
-# frontend-responsive-design
-Opdracht voor het vak Frontend @CMD Amsterdam
+# Frontend-responsive-design
+Voor het vak Frontend @CMD Amsterdam, ga ik de site https://topdocumentaryfilms.com/ zoveel mogelijk namaken.
+Om precies te zijn kies ik de volgende twee pagina's van de site om na te maken:
 
-[Beschrijf hier wat jij gaat doen]
-
-Ik ga de site https://topdocumentaryfilms.com/ zoveel mogelijk namaken.
-Om precies te zijn kies ik de volgende twee pagina's van de site om dit te doen:
-
-  Overzichtspagina:
+  - Overzichtspagina:
   https://topdocumentaryfilms.com/category/technology/page/1/
 
-  Detailpagina:
+  - Detailpagina:
   https://topdocumentaryfilms.com/bitcoin-beyond-bubble/
 
-De site moet uiteindelijk mobiel, tablet en desktop vriendelijk zijn.
+De site moet uiteindelijk ``` mobiel  ```, **tablet** en **desktop** vriendelijk zijn.
 
 
 
