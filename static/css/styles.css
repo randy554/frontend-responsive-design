@@ -96,14 +96,6 @@ body > section:first-of-type {
   padding: 0.625em 0.9375em;
 }
 
-/* body > section:first-of-type header {
-  flex: 3;
-}
-
-body > section:first-of-type form {
-  flex: 1;
-} */
-
 body > section:first-of-type > header > h2 {
   text-transform: uppercase;
   font-size: 0.875em;
@@ -366,7 +358,7 @@ body > footer > section:first-child {
 }
 
 body > footer > section:nth-child(2) {
-  margin-top: 0 0.625em 0 0.625em;
+  margin: 0 0.625em 0 0.625em;
   padding: 0.625em;
 }
 
@@ -413,7 +405,7 @@ body > footer > section > ul > li > a, body > footer > section h2 {
   color: #fff;
 }
 
-/* BREAKPOINT 1 */
+/* BREAKPOINT 1 - TABLET */
 
 @media (min-width: 37em) {
 
@@ -443,15 +435,13 @@ body > footer > section > ul > li > a, body > footer > section h2 {
 
 }
 
+/* BREAKPOINT 2 - MOBIEL */
+
 @media (min-width: 58em) {
 
   body {
     max-width: 63em;
     background-color: gold;
   }
-
-  /* body > header {
-    max-width: 72em;
-  } */
 
 }
