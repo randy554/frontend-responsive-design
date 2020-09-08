@@ -13,7 +13,8 @@ Om precies te zijn kies ik de volgende twee pagina's van de site om na te maken:
 
 De site moet uiteindelijk `mobiel`, `tablet` en `desktop` vriendelijk zijn.
 
-
+**Mijn startniveau:** `Blauwe piste` <br>
+**Mijn focus:** `Helemaal responsive`
 
 ## Criteria
 ### 1.) De HTML is gestructureerd en semantisch opgemaakt

@@ -435,13 +435,30 @@ body > footer > section > ul > li > a, body > footer > section h2 {
 
 }
 
-/* BREAKPOINT 2 - MOBIEL */
+/* BREAKPOINT 2 - DESKTOP */
 
 @media (min-width: 58em) {
 
   body {
-    max-width: 63em;
+    /*max-width: 63em;*/
+    max-width: 74.125em;
     background-color: gold;
+  }
+
+  main {
+    width: calc(100% - 24.5625em);
+    float: left;
+    background-color: blue;
+  }
+
+  aside {
+    width: 23.5625em;
+    float: right;
+  }
+
+  section:nth-of-type(2) {
+    width: 23.5625em;
+    float: right;
   }
 
 }
